@@ -35,7 +35,7 @@ alapértelmezetten tartalmazza a cron feladatkezelőt. Egy cron-feladat
 beállításához add ki a `crontab -e` parancsot, majd írd be a fájlba a következő
 sort:
 
-    `0 2 * * * bash /teljes/elérésiút/wcnevelde-bot-jomunkasember.sh`
+    0 2 * * * bash /teljes/elérésiút/wcnevelde-bot-jomunkasember.sh
 
 A fenti cron-feladat minden nap éjjel 2:00 órakor futtatja le a BOT-ot.
 
