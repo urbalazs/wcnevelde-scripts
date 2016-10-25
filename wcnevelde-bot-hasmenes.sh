@@ -112,6 +112,8 @@ do
     # statisztika kiírása minden 100. próba után
     if [[ $(($COUNT % 100)) -eq 0 && $COUNT -gt 0 ]]
     then
-        printf "\nSTATISZTIKA: keresések: $COUNT, barnatallér delta: $FOUND, találati arány: $((100*$FOUND/$COUNT))%\n\n"
+        echo ""
+        echo "STATISZTIKA: keresések: $COUNT, barnatallér delta: $FOUND, találati arány: $((100*$FOUND/$COUNT))%"
+        echo ""
     fi
 done
