@@ -2,20 +2,14 @@
 
 This is a Hungarian-language repository for web-based game "WC-nevelde".
 
-## „Hasmenés” BOT
+## „Hasmenés” BOT 2.0
 
 A „hasmenés” BOT folyamatosan termeli („fossa ki magából”) a barnatallérokat,
 innen kapta a nevét. A BOT használatához meg kell adni a http://wcnevelde.com/
-oldalon regisztrált felhasználónevet és jelszót. Ezeket a parancsfájl 37-38.
+oldalon regisztrált felhasználónevet és jelszót. Ezt vagy futás közben kell megadni, vagy a parancsfájl 60 és 61-ik
 sorába kell beírni, közvetlenül az = jel után.
 
 A BOT indításához a `bash wcnevelde-bot-hasmenes.sh` parancsot kell kiadni.
-
-Ha naplózni szeretnéd a BOT futását, akkor át kell irányítani a kimenetet egy
-fájlba. Ehhez a `bash wcnevelde-bot-hasmenes.sh >> hasmenes.log &` parancsot
-add ki. Ezzel visszakapod a terminált, és a BOT kimenetét a megadott fájlban
-találod majd. Ha meg szeretnéd nézni futás közben a naplófájlt, akkor azt a
-`tail -f hasmenes.log` paranccsal láthatod valós időben.
 
 A BOT minden 100. keresés után statisztikát is megjelenít a megtalált
 barnatallérokról, valamint százalékos arányban is kiírja azt.
